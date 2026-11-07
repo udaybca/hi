@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Student & Developer Portfolio</title>
+    <!-- Link to your external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <h1>Alex Morgan</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="profile-placeholder.jpg" alt="Alex Morgan profile picture" class="profile-img">
+                    <div class="about-text">
+                        <p>Hello! I am a passionate computer science student and aspiring front-end developer. I love building clean, accessible, and responsive web applications using modern HTML5, CSS3, and JavaScript.</p>
+                        <p>When I'm not coding, you can find me exploring open-source projects, reading tech blogs, or hiking outdoors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Semantic markup, Flexbox, CSS Grid, responsive design principles.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript (ES6+)</h3>
+                        <p>DOM manipulation, asynchronous JavaScript, Fetch API, event handling.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools & Workflow</h3>
+                        <p>Git & GitHub, VS Code, Chrome DevTools, deployment via GitHub Pages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Task Tracker App</h3>
+                        <p>A dynamic to-do application built with vanilla JavaScript that stores tasks locally in the browser.</p>
+                        <a href="https://github.com/username/task-tracker" target="_blank" class="btn">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>Weather Dashboard</h3>
+                        <p>A weather forecast web app that queries a public REST API to display live meteorological data.</p>
+                        <a href="https://github.com/username/weather-dashboard" target="_blank" class="btn">View on GitHub</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Link to your interactive JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
